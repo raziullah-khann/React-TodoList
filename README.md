@@ -43,12 +43,13 @@ This app allows users to **add, edit, delete**, and **persist** todos — even a
 
 Follow these steps to run the project locally 👇  
 
+---
+cd todolist-app
+##Install dependencies
+npm install
+##Run the app 
+npm run dev 
+
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/raziullahkhann/todolist-app.git
-
-cd todolist-app
-#Install dependencies
-npm install
-#Run the app 
-npm run dev 
