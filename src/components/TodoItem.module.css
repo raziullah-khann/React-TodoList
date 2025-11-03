@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px 18px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Text styling */
+.container h3 {
+  flex: 1;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.container h2 {
+  flex: 0.5;
+  font-size: 1.1rem;
+  color: #007bff;
+  text-align: center;
+}
+
+.container p {
+  flex: 2;
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0 10px;
+}
+
+/* Buttons section */
+.container a,
+.container button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Update (NavLink) button */
+.container a {
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+}
+
+.container a:hover {
+  background-color: #138496;
+}
+
+/* Delete button */
+.container button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+.container button:hover {
+  background-color: #b02a37;
+}
+.delete{
+    width:min-content;
+    margin: 0.5rem;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container h3,
+  .container h2,
+  .container p {
+    text-align: left;
+    margin-bottom: 6px;
+  }
+
+  .container a,
+  .container button {
+    width: 100%;
+    text-align: center;
+    margin-top: 6px;
+  }
+}
